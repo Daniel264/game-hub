@@ -7,6 +7,6 @@ interface Platform {
 
 }
 
-const usePlatforms = () => useData<Platform>('/platforms/list/parents');
+const usePlatforms = () => useData<Platform>('/platforms');
 
 export default usePlatforms;
